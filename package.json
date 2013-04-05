@@ -1,0 +1,17 @@
+{
+  "name": "heka-node-demo",
+  "description": "A demo app using heka-node",
+  "keywords": ["raven", "sentry", "cef", "statsd", "python"],
+  "version": "0.1",
+  "repository": "git://github.com/crankycoder/heka-node-demo.git",
+  "author": "Victor Ng <victor@crankycoder.com>",
+  "license": "MPL 2.0",
+  "main": "index",
+  "engines": {
+    "node": ">= 0.10"
+  },
+  "dependencies": {
+    "heka": "*",
+    "raven": "*",
+  }
+}
